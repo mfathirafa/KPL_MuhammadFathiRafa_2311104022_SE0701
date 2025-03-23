@@ -1,4 +1,3 @@
-console.log("Ini dari main");
 class Penjumlahan {
     // method parameter generic = parameter digunakan dengan berbagai tipe data tanpa menulis ulang fungsi
     JumlahTigaAngka(a, b, c) {
