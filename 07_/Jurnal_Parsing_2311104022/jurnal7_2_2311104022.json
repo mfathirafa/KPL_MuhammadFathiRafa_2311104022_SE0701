@@ -1,0 +1,32 @@
+{
+  "members" : [
+    {
+       "firstName": "Eduardo",
+       "lastName": "Bagus",
+       "gender": "male",
+       "age": 20,
+       "nim": "2311104022"
+    },
+    {
+       "firstName": "Muhammad",
+       "lastName": "Mahrus Ali",
+       "gender": "male",
+       "age": 20,
+       "nim": "2311104022"
+    },
+    {
+       "firstName": "Fajar",
+       "lastName": "Budiawan",
+       "gender": "male",
+       "age": 22,
+       "nim": "2311104039"
+    },
+    {
+      "firstName": "Reza",
+       "lastName": "Irawan",
+       "gender": "male",
+       "age": 20,
+       "nim": "2311104035"
+    }
+  ]
+}
