@@ -1,0 +1,13 @@
+{
+  "name": "pangkat-app",
+  "version": "1.0.0",
+  "description": "Aplikasi hitung pangkat sederhana",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "type": "module"
+}
