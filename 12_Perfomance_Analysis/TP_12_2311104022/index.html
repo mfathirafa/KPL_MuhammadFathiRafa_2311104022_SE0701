@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GUI Cari Tanda Bilangan</title>
+</head>
+<body>
+  <h2>Cari Tanda Bilangan</h2>
+
+  <input type="text" id="inputNumber" placeholder="Masukkan angka" />
+  <button id="btnCheck">Cek Tanda</button>
+  <p>Hasil: <span id="outputLabel"></span></p>
+
+  <script>
+    // Fungsi sesuai instruksi
+    function CariTandaBilangan(a) {
+      if (a < 0) return "Negatif";
+      else if (a > 0) return "Positif";
+      else return "Nol";
+    }
+
+    // Event button click
+    document.getElementById('btnCheck').addEventListener('click', () => {
+      const inputText = document.getElementById('inputNumber').value.trim();
+      // Parse input ke integer
+      const inputNum = parseInt(inputText, 10);
+      
+      // Validasi input
+      if (isNaN(inputNum)) {
+        document.getElementById('outputLabel').textContent = "Input bukan angka valid!";
+        return;
+      }
+
+      // Panggil fungsi dan tampilkan hasil
+      const hasil = CariTandaBilangan(inputNum);
+      document.getElementById('outputLabel').textContent = hasil;
+    });
+  </script>
+</body>
+</html>
